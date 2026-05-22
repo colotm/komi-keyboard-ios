@@ -10,7 +10,7 @@ struct KeyboardLayouts {
             ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
             ["a", "s", "d", "f", "g", "h", "j", "k", "l", "\'"],
             ["shift", "z", "x", "c", "v", "b", "n", "m", "backspace"],
-            ["123", "globe", "ö", "space", ".", "return"]
+            ["123", "space", ".", "return"]
         ],
         hints: [
 
@@ -37,7 +37,7 @@ struct KeyboardLayouts {
         subchars: [
 
             "t": ["ť"],
-            "o": ["ö", "õ"],
+            "o": ["ö", "õ", "ő", "ø", "œ"],
             "u": ["ü"],
 
             "a": ["ä", "å"],
@@ -55,17 +55,16 @@ struct KeyboardLayouts {
             "v": ["ź", "ž"],
             "n": ["ń", "ň"],
             
-            "ö": ["õ", "ő", "ø", "œ"],
             ".": [",", "?", "!"]
         
         ])
     
     static let punctuation = KeyboardLayouts(
         keys: [
-            ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+            ["globe", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
             ["-", "/", ":", ";", "(", ")", "$", "&", "@", "\""],
             ["#+=", ".", ",", "?", "!", "\'", "backspace"],
-            ["ABC", "globe", "space", "return"]
+            ["ABC", "space", "return", "0"]
         ],
         subchars: [
             "1": ["1", "¹"],
@@ -100,7 +99,7 @@ struct KeyboardLayouts {
             ["[", "]", "{", "}", "#", "%", "^", "*", "+", "="],
             ["_", "\\", "|", "~", "<", ">", "€", "£", "¥", "•"],
             ["123", ".", ",", "?", "!", "\'", "backspace"],
-            ["ABC", "globe", "space", "return"]
+            ["ABC", "space", "return"]
         ],
         subchars: [
             "{": ["{", "(", "["],
